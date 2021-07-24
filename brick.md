@@ -14,7 +14,7 @@ To retrieve a certain data point (e.g. the power of a pump) in a building, one n
 
 ## An Entire Example
 
-Let's see an entire example that tracing the daily mean power of chillers how is implemented in Energon. Now that there is a building named **\'EMSD\'**, whose ***power data*** from ***Jun. 1 to 30, 2020*** need to be extacted to track changes in daily mean power of chillers.
+Let's see an entire example that tracing the daily mean power of chillers how is implemented in Brick. Now that there is a building named **\'EMSD\'**, whose ***power data*** from ***Jun. 1 to 30, 2020*** need to be extacted to track changes in daily mean power of chillers.
 
 ### SPARQL query
 
