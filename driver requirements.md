@@ -3,6 +3,9 @@
 
 # Method for Building Data Accessing
 ## Two real-world buidling dataset
+We firstly show two real-world building datasets. One is the **DP** dataset which consists of serveral tables (stored as .csv files) and each table stores the data collected from an independent sensor of the building DP. Another is the **EMSD** dataset which is a single super table and all the data collected by different sensors of building EMSD are concated together.
+
+**a figure to show the different data files**
 
 ## Manual way
 
