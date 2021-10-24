@@ -2,7 +2,7 @@
 ## Procedure for building analytics
 
 ## Two real-world building datasets
-We firstly show two real-world building datasets. One is the **DP** dataset which consists of serveral tables (stored as multiple .csv files) and each table stores the data collected from an independent sensor of the building DP. Another is the **EMSD** dataset which is a single super table (stored as a single .csv file) and all the data collected by different sensors of building EMSD are concated by raws together. Both of them can be potentially used for the building analytic **Energy Consumption Predicetion (ECP)**.
+We firstly show two real-world building datasets. One is the **EMSD** dataset which consists of serveral tables (stored as multiple .csv files) and each table stores the data collected from an independent sensor of the building DP. Another is the **DP** dataset which is a single super table (stored as a single .csv file) and all the data collected by different sensors of building EMSD are concated by raws together. Both of them can be potentially used for the building analytic **Energy Consumption Predicetion (ECP)**.
 
 **a figure to show the different data files**
 
@@ -10,13 +10,19 @@ In fact, we can never expect that all the real-world datasets to be construted b
 
 # Methods for Building Data Accessing
 ## Manual way
-For the **DP** dataset, we try to extract the data in a manual way. With the help of data processing tools (e.g. Pandas in python), we can read the tables and extract the data (e.g. electricity meter readings) we need for ECP, as showed in the following codes:
+For the **DP** dataset, we try to extract the data in a manual way. With the help of data processing tools (e.g. Pandas in python), we can read the table and extract the data (e.g. electricity meter readings) we need for ECP, as showed in the following codes:
 ```python
 import pandas as pd
-for file in dic
+
+# 1. define the feature list to be used in  model training process, which is a subset of all the features of DP data.
+feature_list = ['chiller_electricity', 'light_electricity', 'steam_electricity', 'solar_illuminance']
+
+# 2. read the csv file and load required data
+dataset = pd.read_csv('DP_file.csv')
+required_data = dataset[feature_list]
 ...
 ```
-Note that this codes is hard to be reused for another building datas like EMSD. Because either 
+Note that this codes is hard to be reused for another building datas like **EMSD**. Because the features of the list in the first step can only be added case by case. Besides, not all the data are stored in the same table. Thus, one have to rewrite codes for other buildings.
 ## Metadata-scheme based way
 
 ## Deficiencies when it comes to multiple buildings
