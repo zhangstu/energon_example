@@ -10,8 +10,13 @@ We firstly show two real-world building datasets. One is the **DP** dataset whic
 In fact, we can never expect that all the real-world datasets to be construted by the above methods. Without constraints, the organization of building datasets can be arbitrary. For example, the datasets can also be a single table and all the data from different sensors are concated by columns as follows. Thus, it comes more difficult when the number of buildings becomes multiple.
 
 ## The same model training process
+```python
+train_data, test_data = dataloader()
+model = Model()
+...
+```
 
-# Method for Building Data Accessing
+# Methods for Building Data Accessing
 ## Manual way
 
 ## Metadata-scheme based way
