@@ -19,7 +19,7 @@ for file in dic
 Note that this codes is hard to be reused for another building datas like EMSD. Because either 
 ## Metadata-scheme based way
 
-## Deficiencies for multiple buildings
+## Deficiencies when it comes to multiple buildings
 
 # Two Cases of Real-world Buidling Analytics
 
