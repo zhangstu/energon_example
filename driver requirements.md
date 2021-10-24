@@ -23,9 +23,12 @@ required_data = dataset[feature_list]
 ...
 ```
 Note that this codes is hard to be reused for another building datas like **EMSD**. Because the features of the list in the first step can only be added case by case. Besides, not all the data are stored in the same table. Thus, one have to rewrite codes for other buildings.
-## Metadata-scheme based way
-
+## Metadata-schema based way
+For the **EMSD** dataset, fortunately, as it use the **Brick** metadata schema, we can use **Brick** metadata to specify the data we need in EMSD. Refer to the [Brick Ontology documentation page][brick] for details on the contents of **Brick**. 
+For example, with the help of Mortar (a toolkit for data extraction )
 ## Deficiencies when it comes to multiple buildings
+
+## A promising way
 
 # Two Cases of Real-world Buidling Analytics
 
