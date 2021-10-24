@@ -45,3 +45,4 @@ for epoch in range(num_epoches)
     ...
 ```
 ## Quality evaluation for models
+[brick]:https://brickschema.org/ontology/
