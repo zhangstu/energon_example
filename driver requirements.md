@@ -1,20 +1,10 @@
-<style>
-img{
-    width: 60%;
-    padding-left: 20%;
-}
-</style>
 # Data-driven Building Analytics
 ## Procedure for building analytics
-![test image size](https://github.com/fangger4396/energon_example/blob/main/img/process.png#width-full){:height="50%" width="50%"}
-<img https://github.com/fangger4396/energon_example/blob/main/img/process.png width=60% />
-img[src*="#width-full"] {
- width: 100%;
-}
+![image](https://github.com/fangger4396/energon_example/blob/main/img/process.png#width-full)
 ## Two real-world building datasets
 We firstly show two real-world building datasets. One is the **EMSD** dataset which consists of serveral tables (stored as multiple .csv files) and each table stores the data collected from an independent sensor of the building DP. Another is the **DP** dataset which is a single super table (stored as a single .csv file) and all the data collected by different sensors of building EMSD are concated by columns together. Both of them can be potentially used for the building analytic **Energy Consumption Predicetion (ECP)**.
 
-![test image size](https://github.com/fangger4396/energon_example/blob/main/img/data_tables.png)
+![image](https://github.com/fangger4396/energon_example/blob/main/img/data_tables.png)
 
 In fact, we can never expect that all the real-world datasets to be construted by the above methods. Without constraints, the organization of building datasets can be arbitrary. For example, the datasets can also be a single table and all the data from different sensors are concated by raws. Thus, it comes more difficult when the number of buildings becomes multiple.
 
