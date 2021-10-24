@@ -9,7 +9,7 @@ We firstly show two real-world building datasets. One is the **DP** dataset whic
 
 In fact, we can never expect that all the real-world datasets to be construted by the above methods. Without constraints, the organization of building datasets can be arbitrary. For example, the datasets can also be a single table and all the data from different sensors are concated by columns as follows. Thus, it comes more difficult when the number of buildings becomes multiple.
 
-## The same model training process
+## The unified model training process
 ```python
 from torch.utils.data import Dataset, DataLoader
 
