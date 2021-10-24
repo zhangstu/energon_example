@@ -1,3 +1,9 @@
+<style>
+img{
+    width: 60%;
+    padding-left: 20%;
+}
+</style>
 # Data-driven Building Analytics
 ## Procedure for building analytics
 ![test image size](https://github.com/fangger4396/energon_example/blob/main/img/process.png#width-full){:height="50%" width="50%"}
