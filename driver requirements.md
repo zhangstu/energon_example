@@ -10,7 +10,7 @@ In fact, we can never expect that all the real-world datasets to be construted b
 
 # Methods for Building Data Accessing
 ## Manual way
-For the **DP** dataset, we try to extract the data in a manual way. With the help of data processing tools (e.g. Pandas in python), we can read the table and extract the data (e.g. electricity meter readings) we need for ECP, as showed in the following codes:
+For the **DP** dataset, we try to extract the data in a manual way. With the help of data processing tools (e.g. **Pandas** in python), we can read the table and extract the data (e.g. electricity meter readings) we need for ECP, as showed in the following codes:
 ```python
 import pandas as pd
 
