@@ -1,7 +1,10 @@
 # Data-driven Building Analytics
 ## Procedure for building analytics
-![test image size](https://github.com/fangger4396/energon_example/blob/main/img/process.png){:height="50%" width="50%"}
+![test image size](https://github.com/fangger4396/energon_example/blob/main/img/process.png#width-full){:height="50%" width="50%"}
 <img https://github.com/fangger4396/energon_example/blob/main/img/process.png width=60% />
+img[src*="#width-full"] {
+ width: 100%;
+}
 ## Two real-world building datasets
 We firstly show two real-world building datasets. One is the **EMSD** dataset which consists of serveral tables (stored as multiple .csv files) and each table stores the data collected from an independent sensor of the building DP. Another is the **DP** dataset which is a single super table (stored as a single .csv file) and all the data collected by different sensors of building EMSD are concated by columns together. Both of them can be potentially used for the building analytic **Energy Consumption Predicetion (ECP)**.
 
