@@ -7,6 +7,7 @@ We firstly show two real-world building datasets. One is the **DP** dataset whic
 
 **a figure to show the different data files**
 
+In fact, we can never expect that all real-world datasets to be construted by the above methods. Without constraints, the organization of building datasets can be arbitrary. 
 ## Manual way
 
 ## Metadata-scheme based way
