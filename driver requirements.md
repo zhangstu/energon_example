@@ -65,10 +65,11 @@ mean_chiller_power_data = chiller_power_data.resample('D', how='mean')
 # display the results
 print(mean_chiller_power_data)
 ```
-These codes are also hard to be reused when it comes to another building, even if this another building is supported by **Brick**. Firstly, the SPARQL query always needed to be rewrote, as the metadata differs. Secondly, one has to be an expert who has good understanding for both **Brick** metadata schema itself and the metadata of the specific building. Otherwise, one may not be able to construct precise SPARQL query.
+These codes are also hard to be reused when it comes to another building, even this another building is supported by **Brick**. Firstly, the SPARQL query always needed to be rewrote, as the metadata differs. Secondly, one has to be an expert who has good understanding for both **Brick** metadata schema itself and the metadata of the specific building. Otherwise, one may not be able to construct precise SPARQL query.
 
 ## A promising way
-
+You may hope to skip the intractable data extraction step, and just start your building analytics development from the data processing step. Even another building comes, you can start from the data you familar with. In fact, it is promising, as there are some buildings that holds the same data organization. For there buildings, we can materialize the data stored in files or databases in the same way as an unified data representation.
+![image](https://github.com/fangger4396/energon_example/blob/main/img/driver.png)
 # Two Cases of Real-world Buidling Analytics
 
 ## Unified model training process
