@@ -65,7 +65,7 @@ mean_chiller_power_data = chiller_power_data.resample('D', how='mean')
 # display the results
 print(mean_chiller_power_data)
 ```
-## Deficiencies when it comes to multiple buildings
+These codes are also hard to be reused when it comes to another building, even if this another building is supported by **Brick**. Firstly, the SPARQL query always needed to be rewrite, as the metadata differs. Secondly, one has to be an expert who has good understanding for both **Brick** metadata schema itself and the metadata of the specific building.
 
 ## A promising way
 
