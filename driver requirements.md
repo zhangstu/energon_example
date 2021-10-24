@@ -12,9 +12,11 @@ In fact, we can never expect that all the real-world datasets to be construted b
 ## The same model training process
 ```python
 from torch.utils.data import Dataset, DataLoader
+
 train_data = my_building_dataset()
 dataloader = Dataloader(train_data, batch_size=4, shuffle=True)
 num_epoches = 100
+
 for epoch in range(num_epoches)
   for X,y in dataloader:
     ...
