@@ -64,6 +64,6 @@ By using these features as input of model 1, the accuracy of model 1 for **EMSD*
 [genome]:https://github.com/buds-lab/the-building-data-genome-project
 [brick]:https://brickschema.org/ontology/
 [energon]:https://github.com/fangger4396/energon_example/blob/main/Energon.md
-[download]:https://github.com/fangger4396/energon_example/blob/main/cement.md
+[download]:https://drive.google.com/file/d/1jF4mIctg6pdbUmg9zIM7V6AH__FY93__/view?usp=sharing
 [RF]:https://www.sciencedirect.com/science/article/pii/S0378778818311290
 [LSTM]:https://www.sciencedirect.com/science/article/pii/S0306261917302921
