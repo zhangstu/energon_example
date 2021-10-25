@@ -31,7 +31,7 @@ How can we write **EnergonQL** queries to extract the followling list of feature
 
 + **Chilled Water Flow**
 + **Hot Water Flow**
-+ **Solar illuminance**
++ **Solar Illuminance**
 + **Outdoor Temperature**
 + **Building Electricity**
 
