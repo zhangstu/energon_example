@@ -3,7 +3,7 @@ Building Applications are widely used in building energy tracing, fault detectio
 ## Energy Consumption Prediction
 The Energy Consumption Prdiction can be used to predict the next timestamp energy consumption of a group of building systems by training a ML model with histrical electricity data of the related systems. Here, a general ML model construction process can be followed to get this model, which consists of data access, data processing, model training, model evaluation orderly.
 ## Building Datasets Introduction
-Besides the EMSD data, we also provide an open-source dataset named **Genome**. Both of them can be download at **xxx**.
+Besides the EMSD data, we also provide an open-source dataset named [**Genome**][gemone]. Both of them can be download at **xxx**.
 ## Model Introduction
 ### Model 1
 ### Model 2
@@ -37,3 +37,4 @@ Similarly, **EnergonQL** queries can help us to access the **Genome** data by us
 This query extracts the same list of features. Thus it gives the same accuracy of model 1.
 ## Example 3: Using EMSD Data with Brick and Energon
 
+[genome]:https://github.com/buds-lab/the-building-data-genome-project
