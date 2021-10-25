@@ -16,9 +16,15 @@ By writing SPARQL queries, **Brick** can assist us to access the **Genome** data
 `?equip bric:hasPoint ?ps .`\
 `?wea a brick:Weather .`\
 `?ops a brick:Temperature_sensor .`\
-`?wea brick:hasPoint ?ops .}`\
+`?wea brick:hasPoint ?ops .}`
 
+This query extracts the following list of features in **Genome**:
 
+**Building Electricity**
+**Outdoor Temperature**
+** ... **
+
+By using these features, the accuracy of the model for **Genome** is xxx with the **Mean Square Error** as metric.
 ## Example 2: Using Genome Data with Energon
 ## Example 3: Using EMSD Data with Brick
 
