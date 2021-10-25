@@ -9,14 +9,14 @@ Besides the EMSD data, we also provide an open-source dataset named **Genome**. 
 # Examples
 ## Example 1: Using Genome Data with Brick
 By writing SPARQL queries, **Brick** can assist us to access the **Genome** data. For example:
-`SELECT ?ps ?ots WHERE{
-`?equip a brick:Equipment .
-`?ps a brick:Power_sensor .
-`?equip bric:hasPoint ?ps .
-`?wea a brick:Weather .
-`?ops a brick:Temperature_sensor .
-`?wea brick:hasPoint ?ops .
-`}
+`SELECT ?ps ?ots WHERE{`\
+`?equip a brick:Equipment .`\
+`?ps a brick:Power_sensor .`\
+`?equip bric:hasPoint ?ps .`\
+`?wea a brick:Weather .`\
+`?ops a brick:Temperature_sensor .`\
+`?wea brick:hasPoint ?ops .`\
+`}`\
 ## Example 2: Using Genome Data with Energon
 ## Example 3: Using EMSD Data with Brick
 
