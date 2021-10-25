@@ -6,8 +6,9 @@ The Energy Consumption Prdiction can be used to predict the next timestamp energ
 Besides the EMSD data, we also provide an open-source dataset from project [**Genome**][genome]. Both of them can be used for training ECP models and downloaded [**here**][download].
 ## Model Introduction
 ### Model 1
+Model 1 is a [Random Forest][RF] model which using the historical data from various systems of the building (e.g., chilled water system and hot water system) and solar illuminance data to train an ML model.
 ### Model 2
-
+Model 2 is a [LSTM][LSTM] model which using the time-series data from both electrical and non-electrical systems and the weather data to train a neural network.
 ## Example: Using Genome Data with Energon
 By writing EnergonQL, [**Energon**][energon] can assist to access the **Genome** data. For example:
 
@@ -60,3 +61,5 @@ How can we write **EnergonQL** queries to extrac the followling list of features
 [brick]:https://brickschema.org/ontology/
 [energon]:https://github.com/fangger4396/energon_example/blob/main/Energon.md
 [download]:https://github.com/fangger4396/energon_example/blob/main/cement.md
+[RF]:https://www.sciencedirect.com/science/article/pii/S0378778818311290
+[LSTM]:https://www.sciencedirect.com/science/article/pii/S0306261917302921
