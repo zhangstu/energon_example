@@ -31,6 +31,7 @@ Write **EnergonQL** queries to extrac the followling list of features of **Genom
 + **steam flow**
 
 **Solution:**
+
 `SELECT Power + Weather * Temperature + (Chiller + Steam) * Flow_Rate`\
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
@@ -41,6 +42,7 @@ Write **EnergonQL** queries to extrac the followling list of features of **EMSD*
 + **Outdoor Temperature**
 
 **Solution:**
+
 `SELECT Power + Weather * Temperature`\
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
