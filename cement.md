@@ -10,7 +10,7 @@ Besides the EMSD data, we also provide an open-source dataset named [**Genome**]
 
 # Examples
 ## Example 1: Using Genome Data for with Brick
-By writing **SPARQL** queries, **Brick** can assist us to access the **Genome** data. For example:
+By writing **SPARQL** queries, [**Brick**][brick] can assist us to access the **Genome** data. For example:
 
 `SELECT ?ps ?ots WHERE{`\
 `?equip a brick:Equipment .`\
@@ -28,7 +28,7 @@ This query extracts the following list of features in **Genome**:
 
 By using these features as input of model 1, the accuracy of the model 1 for **Genome** is xxx with the **Mean Square Error** as metric.
 ## Example 2: Using Genome Data with Energon
-Similarly, **EnergonQL** queries can help us to access the **Genome** data by using Energon. For example:
+Similarly, **EnergonQL** queries can help us to access the **Genome** data by using [**Energon**][energon]. For example:
 
 `SELECT Power + Weather * Temperature`\
 `FROM Building A`\
@@ -38,3 +38,5 @@ This query extracts the same list of features. Thus it gives the same accuracy o
 ## Example 3: Using EMSD Data with Brick and Energon
 
 [genome]:https://github.com/buds-lab/the-building-data-genome-project
+[brick]:https://brickschema.org/ontology/
+[energon]:https://github.com/fangger4396/energon_example/blob/main/brick.md
