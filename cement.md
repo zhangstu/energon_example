@@ -57,6 +57,8 @@ How can we write **EnergonQL** queries to extrac the followling list of features
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
 
+By using these features as input of model 1, the accuracy of model 1 for **EMSD** is 71% with the **percentage error** as metric.
+
 ![image](https://github.com/fangger4396/energon_example/blob/main/img/WechatIMG4950.png)
 
 [genome]:https://github.com/buds-lab/the-building-data-genome-project
