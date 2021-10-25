@@ -23,6 +23,8 @@ This query extracts the following list of features in **Genome**:
 
 By using these features as input of model 1, the accuracy of model 1 for **Genome** is 58% with the **percentage error** as metric.
 ![image](https://github.com/fangger4396/energon_example/blob/main/img/WechatIMG4939.png)
+
+You can find the implement codes [**here**][download] and try it by yourself.
 ## Cogitation 1
 How can we write **EnergonQL** queries to extract the followling list of features of **Genome** data for Model 2?
 
@@ -40,6 +42,8 @@ How can we write **EnergonQL** queries to extract the followling list of feature
 
 The evaluation result show that these features for Model 2 increasing the accuracy to **85%**.
 ![image](https://github.com/fangger4396/energon_example/blob/main/img/WechatIMG4944.png)
+
+You can find the implement codes [**here**][download] and try it by yourself.
 ## Cogitation 2
 How can we write **EnergonQL** queries to extrac the followling list of features of **EMSD** data for Model 1?
 + **AHU Electricity**
