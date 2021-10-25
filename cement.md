@@ -20,8 +20,8 @@ By writing SPARQL queries, **Brick** can assist us to access the **Genome** data
 
 This query extracts the following list of features in **Genome**:
 
-**Building Electricity**
-**Outdoor Temperature**
+**Building Electricity**\
+**Outdoor Temperature**\
 ** ... **
 
 By using these features, the accuracy of the model for **Genome** is xxx with the **Mean Square Error** as metric.
