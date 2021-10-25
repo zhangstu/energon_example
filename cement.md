@@ -27,6 +27,15 @@ This query extracts the following list of features in **Genome**:
 + ...
 
 By using these features as input of model 1, the accuracy of the model 1 for **Genome** is xxx with the **Mean Square Error** as metric.
+
+## Exercise 1
+Write **SPARQL** queries to extrac the followling list of features of **Genome** data for Model 2.
+
++ **Building Electricity**
++ **Outdoor Temperature**
++ **chiller water flow**
++ **steam flow**
+
 ## Example 2: Using Genome Data with Energon
 Similarly, **EnergonQL** queries can help us to access the **Genome** data by using [**Energon**][energon]. For example:
 
@@ -35,7 +44,18 @@ Similarly, **EnergonQL** queries can help us to access the **Genome** data by us
 `WHERE A.id = 'Genome'`
 
 This query extracts the same list of features. Thus it gives the same accuracy of model 1.
-## Example 3: Using EMSD Data with Brick and Energon
+## Exercise 2
+Write **EnergonQL** queries to extrac the followling list of features of **Genome** data for Model 2.
+
++ **Building Electricity**
++ **Outdoor Temperature**
++ **chiller water flow**
++ **steam flow**
+
+## Exercise 3
+Write **SPARQL** and **EnergonQL** queries to extrac the followling list of features of **EMSD** data for Model 1.
++ **Building Electricity**
++ **Outdoor Temperature**
 
 [genome]:https://github.com/buds-lab/the-building-data-genome-project
 [brick]:https://brickschema.org/ontology/
