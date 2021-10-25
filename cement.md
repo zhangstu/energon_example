@@ -21,8 +21,8 @@ This query extracts the following list of features in **Genome**:
 + **Outdoor Temperature**
 
 By using these features as input of model 1, the accuracy of the model 1 for **Genome** is xxx with the **Mean Square Error** as metric.
-## Exercise 1
-Write **EnergonQL** queries to extract the followling list of features of **Genome** data for Model 2.
+## Cogitation 1
+How can we write **EnergonQL** queries to extract the followling list of features of **Genome** data for Model 2?
 
 + **Building Electricity**
 + **Outdoor Temperature**
@@ -34,8 +34,8 @@ Write **EnergonQL** queries to extract the followling list of features of **Geno
 `SELECT Power + Weather * Temperature + (Chiller + Steam) * Flow_Rate`\
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
-## Exercise 2
-Write **EnergonQL** queries to extrac the followling list of features of **EMSD** data for Model 1.
+## Cogitation 2
+How can we write **EnergonQL** queries to extrac the followling list of features of **EMSD** data for Model 1?
 + **AHU Electricity**
 + **Chiller Electricity**
 + **Outdoor Temperature**
