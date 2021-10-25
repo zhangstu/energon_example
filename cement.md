@@ -8,7 +8,7 @@ Besides the EMSD data, we also provide an open-source dataset named [**Genome**]
 ### Model 1
 ### Model 2
 
-## Example 1: Using Genome Data with Energon
+## Example: Using Genome Data with Energon
 By writing EnergonQL, [**Energon**][energon] can assist to access the **Genome** data. For example:
 
 `SELECT Power + Weather * Temperature`\
