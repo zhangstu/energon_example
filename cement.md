@@ -20,7 +20,7 @@ This query extracts the following list of features in **Genome**:
 + **Building Electricity**
 + **Outdoor Temperature**
 
-By using these features as input of model 1, the accuracy of the model 1 for **Genome** is xxx with the **Mean Square Error** as metric.
+By using these features as input of model 1, the accuracy of model 1 for **Genome** is xxx with the **Mean Square Error** as metric.
 ## Cogitation 1
 How can we write **EnergonQL** queries to extract the followling list of features of **Genome** data for Model 2?
 
