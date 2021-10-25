@@ -43,7 +43,7 @@ Write **EnergonQL** queries to extrac the followling list of features of **EMSD*
 
 **Solution:**
 
-`SELECT Power + Weather * Temperature`\
+`SELECT (Chiller  + AHU) * Power + Weather * Temperature`\
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
 
