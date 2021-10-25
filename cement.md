@@ -56,7 +56,7 @@ How can we write **EnergonQL** queries to extrac the followling list of features
 `SELECT (Chiller  + AHU) * Power + Weather * Temperature`\
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
-
+![image](https://github.com/fangger4396/energon_example/blob/main/img/WechatIMG4950.png)
 [genome]:https://github.com/buds-lab/the-building-data-genome-project
 [brick]:https://brickschema.org/ontology/
 [energon]:https://github.com/fangger4396/energon_example/blob/main/Energon.md
