@@ -3,7 +3,7 @@ Building Applications are widely used in building energy tracing, fault detectio
 ## Energy Consumption Prediction
 The Energy Consumption Prdiction can be used to predict the next timestamp energy consumption of a group of building systems by training a ML model with histrical electricity data of the related systems. Here, a general ML model construction process can be followed to get this model, which consists of data access, data processing, model training, model evaluation orderly.
 ## Public Building Datasets
-Besides the EMSD data, we also provide an open-source dataset from project [**Genome**][genome]. Both of them can be used for training ECP models and downloaded [**here**][download].
+Besides the EMSD data, we also provide an open-source dataset from project [**Genome**][genome]. Both of them can be used for training ECP models and downloaded [here][download].
 ## Model Introduction
 ### Model 1
 ### Model 2
