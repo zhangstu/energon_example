@@ -11,31 +11,33 @@ Besides the EMSD data, we also provide an open-source dataset from project [**Ge
 ## Example: Using Genome Data with Energon
 By writing EnergonQL, [**Energon**][energon] can assist to access the **Genome** data. For example:
 
-`SELECT Power + Weather * Temperature`\
+`SELECT (Chilled_Water + Hot_Water) * Flow_Rate + Solar * Illuminance`\
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
 
 This query extracts the following list of features in **Genome**:
 
-+ **Building Electricity**
-+ **Outdoor Temperature**
++ **Chilled Water Flow**
++ **Hot Water Flow**
++ **Solar illuminance**
 
 By using these features as input of model 1, the accuracy of model 1 for **Genome** is 58% with the **percentage error** as metric.
 ## Cogitation 1
 How can we write **EnergonQL** queries to extract the followling list of features of **Genome** data for Model 2?
 
-+ **Building Electricity**
++ **Chilled Water Flow**
++ **Hot Water Flow**
++ **Solar illuminance**
 + **Outdoor Temperature**
-+ **chiller water flow**
-+ **steam flow**
++ **Building Electricity**
 
 **Solution:**
 
-`SELECT Power + Weather * Temperature + (Chiller + Steam) * Flow_Rate`\
+`SELECT Power + (Chilled_Water + Hot_Water) * Flow_Rate + Solar * Illuminance + Weather * Temperature`\
 `FROM Building A`\
 `WHERE A.id = 'Genome'`
 
-The evaluation result show that these features for Model 2 increasing the accuracy to 75%.
+The evaluation result show that these features for Model 2 increasing the accuracy to 85%.
 ## Cogitation 2
 How can we write **EnergonQL** queries to extrac the followling list of features of **EMSD** data for Model 1?
 + **AHU Electricity**
