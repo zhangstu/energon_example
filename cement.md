@@ -48,5 +48,5 @@ How can we write **EnergonQL** queries to extrac the followling list of features
 
 [genome]:https://github.com/buds-lab/the-building-data-genome-project
 [brick]:https://brickschema.org/ontology/
-[energon]:https://github.com/fangger4396/energon_example/blob/main/brick.md
-[download]:https://github.com/fangger4396/energon_example/blob/main/brick.md
+[energon]:https://github.com/fangger4396/energon_example/blob/main/Energon.md
+[download]:hhttps://github.com/fangger4396/energon_example/blob/main/Energon.md
